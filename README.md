@@ -1,2 +1,2 @@
-"# MingYiTeh.github.io" 
-"# MingYiTeh.github.io" 
+Open up index.html to view the Resume.
+Thank you.
