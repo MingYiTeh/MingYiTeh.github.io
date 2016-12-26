@@ -463,7 +463,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #resume {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 #resume.gallery-thumb {
@@ -490,10 +490,6 @@ a:hover, a:active, a:focus {
 
 #resume .section-title{
 	text-align: center;
-}
-
-#resume .img{
-	
 }
 
 
