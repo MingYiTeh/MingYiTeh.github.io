@@ -88,7 +88,7 @@
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
 	height: 175px;
-	width: 150px;
+	width: 160px;
 	overflow: hidden;
 }
 
@@ -138,17 +138,17 @@
 @media (max-width: 980px) {
 	.grid figcaption h1 {
 		font-size: 1rem;
-		line-height: 1.6rem;
+		line-height: 1rem;
 	}
 	.grid figcaption {
-		padding: 22px 18px;
+		padding: 10px 10px;
 	}
 	.cs-style-4 figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
-	height: 5rem;
-	width: 6rem;
+	height: 12vw;
+	width: 12vw;
 	overflow: hidden;
 }
 .no-touch .cs-style-4 figure:hover img,
@@ -159,8 +159,8 @@
 	transform: translateX(25%);
 }
 .cs-style-4 figcaption {
-	height: 100%;
-	width: 50%;
+	height: 12vw;
+	width: 12vw;
 	opacity: 0;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -175,6 +175,10 @@
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
+
+.cs-style-4 figcaption h3{
+	font-size:11px;
+}
 .no-touch .cs-style-4 figure:hover figcaption,
 .cs-style-4 figure.cs-hover figcaption {
 	opacity: 1;
@@ -184,8 +188,8 @@
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
-	height: 5rem;
-	width: 5rem;
+	height: 12vw;
+	width:12vw;
 }
 }
 
